@@ -3,22 +3,22 @@ type: plugin
 author: eric-2369
 name: zoominfo
 label:
-  en_US: zoominfo
-  ja_JP: zoominfo
-  zh_Hans: zoominfo
-  pt_BR: zoominfo
+  en_US: ZoomInfo Enrichment
+  ja_JP: ZoomInfo エンリッチメント
+  zh_Hans: ZoomInfo 数据丰富化
+  pt_BR: Enriquecimento ZoomInfo
 description:
-  en_US: ZoomInfo Enrichment Tool for retrieving company and contact information.
-  ja_JP: ZoomInfo Enrichment Tool for retrieving company and contact information.
-  zh_Hans: ZoomInfo Enrichment Tool for retrieving company and contact information.
-  pt_BR: ZoomInfo Enrichment Tool for retrieving company and contact information.
-icon: icon.svg
+  en_US: Retrieve comprehensive company, contact, and news information using ZoomInfo API with username/password authentication.
+  ja_JP: ユーザー名/パスワード認証を使用してZoomInfo APIで包括的な企業、連絡先、ニュース情報を取得します。
+  zh_Hans: 使用用户名/密码认证通过 ZoomInfo API 检索全面的公司、联系人和新闻信息。
+  pt_BR: Recupere informações abrangentes de empresas, contatos e notícias usando a API ZoomInfo com autenticação de usuário/senha.
+icon: zoominfo.svg
 resource:
   memory: 268435456
   permission:
     storage:
       enabled: true
-      size: 256
+      size: 4096
 plugins:
   tools:
     - provider/zoominfo.yaml
