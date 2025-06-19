@@ -1,0 +1,38 @@
+version: 0.0.1
+type: plugin
+author: eric-2369
+name: zoominfo
+label:
+  en_US: zoominfo
+  ja_JP: zoominfo
+  zh_Hans: zoominfo
+  pt_BR: zoominfo
+description:
+  en_US: ZoomInfo Enrichment Tool for retrieving company and contact information.
+  ja_JP: ZoomInfo Enrichment Tool for retrieving company and contact information.
+  zh_Hans: ZoomInfo Enrichment Tool for retrieving company and contact information.
+  pt_BR: ZoomInfo Enrichment Tool for retrieving company and contact information.
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission:
+    storage:
+      enabled: true
+      size: 256
+plugins:
+  tools:
+    - provider/zoominfo.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: 1.4.0
+created_at: 2025-06-19T09:36:05.195987573+08:00
+privacy: PRIVACY.md
+repo: https://github.com/Eric-2369/zoominfo-dify-plugin
+verified: false

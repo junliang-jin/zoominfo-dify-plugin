@@ -1,0 +1,17 @@
+identity:
+  author: "eric-2369"
+  name: "zoominfo"
+  label:
+    en_US: "zoominfo"
+    zh_Hans: "zoominfo"
+    pt_BR: "zoominfo"
+  description:
+    en_US: "ZoomInfo Enrichment Tool for retrieving company and contact information."
+    zh_Hans: "ZoomInfo Enrichment Tool for retrieving company and contact information."
+    pt_BR: "ZoomInfo Enrichment Tool for retrieving company and contact information."
+  icon: "icon.svg"
+tools:
+  - tools/zoominfo.yaml
+extra:
+  python:
+    source: provider/zoominfo.py
