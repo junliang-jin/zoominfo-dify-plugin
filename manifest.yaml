@@ -1,4 +1,4 @@
-version: 0.0.1
+version: 0.0.2
 type: plugin
 author: eric-2369
 name: zoominfo
@@ -8,7 +8,7 @@ label:
   zh_Hans: ZoomInfo 数据丰富化
   pt_BR: Enriquecimento ZoomInfo
 description:
-  en_US: Retrieve comprehensive company, contact, and news information using ZoomInfo API with username/password authentication.
+  en_US: Retrieve comprehensive company, contact, news and scoop information using ZoomInfo API with username/password authentication.
   ja_JP: ユーザー名/パスワード認証を使用してZoomInfo APIで包括的な企業、連絡先、ニュース情報を取得します。
   zh_Hans: 使用用户名/密码认证通过 ZoomInfo API 检索全面的公司、联系人和新闻信息。
   pt_BR: Recupere informações abrangentes de empresas, contatos e notícias usando a API ZoomInfo com autenticação de usuário/senha.
